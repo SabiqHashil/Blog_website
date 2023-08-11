@@ -86,3 +86,7 @@ textarea {
 .submitForm:hover {
   cursor: pointer;
 }
+
+.main{
+  background-color: antiquewhite;
+}
