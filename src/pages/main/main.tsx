@@ -29,7 +29,7 @@ export const Main = () => {
 
   return (
     <div>
-      <h1>Welcome my friend!</h1>
+      {/* <h1>Welcome my friend!</h1> */}
       {
         postsList?.map((post) => (
           <Post post={post} />
