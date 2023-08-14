@@ -15,6 +15,7 @@ export const Navbar = () => {
 
     return (
         <div className='navbar'>
+            <p className='sbq' >Created by <b>SBQ</b></p>
             <div className='links'>
                 <Link to="/">Home</Link>
                 {!user ? (

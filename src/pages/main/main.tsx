@@ -29,7 +29,8 @@ export const Main = () => {
 
   return (
     <div>
-      <h1>Welcome to the Blog!</h1>
+      <h1 className='head'>Welcome to the Blog!</h1>
+      <p>Create your own blog posts in it...</p>
       {
         postsList?.map((post) => (
           <Post post={post} />
